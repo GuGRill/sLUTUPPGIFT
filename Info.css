@@ -1,0 +1,36 @@
+
+.Start, .Om, .Info{
+    background-color: #3b79e6;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 20px;
+  }
+
+.grid-container {
+  display: grid;
+  column-gap: 50px;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  padding: 10px , 30px, 30px, 30px;
+}
+.grid-container > div {
+  border: 5px;
+  padding: 2px;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.dark {
+  display: grid;
+  justify-content: center;
+  position: relative; 
+  right:15px;
+}
+
